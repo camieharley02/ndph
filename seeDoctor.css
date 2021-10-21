@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header
+{
+   background-image: linear-gradient(rgba(194, 159, 176, 0.5),rgba(194, 159, 176, 0.5)),url(images/seedoc.jpeg);
+   background-size: cover;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+button
+{
+    background-color: #3baf3b;
+    align-items: center;
+    display: block;
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 10px 90px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+

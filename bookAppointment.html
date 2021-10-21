@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="" width="" initial="" scale="1.0">
+        <title>bookAppointment</title>
+        <link rel="stylesheet" type="text/css" href="bookAppointment.css">
+    </head>
+    <body>
+       <div class="regform"><h1>Doctor's Appointment Form</h1></div>
+       <div class="main">
+            <form name="Appointment form" method="POST" action="camieharley20@gmail.com">
+                <div id="name">
+                    <h2>Patient's Information</h2>
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_Name"><br>
+                    <label class="firstlabel">First Name</label>
+                    <input class="lastname" type="text" name="last_Name">
+                    <label class="lastlabel">Last Name</label>
+                </div>
+
+                <h2 class="name">Gender</h2>
+                
+                <label class="radio">
+                    <input class="radio-one" type="radio" name="">
+                    <span class="checkmark"></span>
+                    Male
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio" name="">
+                    <span class="checkmark"></span>
+                    Female
+                </label>
+
+                <h2 class="name">Date Of Birth</h2>
+                <input class="date" name="date of birth">
+
+                <h2 class="name">Address</h2>
+                <input class="address" type="text" name="address">
+
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+                
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area-code">Area Code</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone-number">Phone Number</label>
+
+
+                <h2>Appointment Details</h2>
+
+                <h2 class="name">Preferred Doctor</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--Choose Option</option>
+                    <option>Doctor Alexander</option>
+                    <option>Doctor Oliver</option>
+                    <option>Doctor Riele</option>
+                    <option>Doctor Reiya</option>
+                </select>
+
+                <h2 id="student">Is this your first visit?</h2>
+                
+                <label class="radio">
+                    <input class="radio-one" type="radio" name="">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio" name="">
+                    <span class="checkmark"></span>
+                    No
+                </label><br>
+
+                <h2 class="name">Purpose of Appointment:</h2>
+                <input class="purpose" name="purpose_of_appointment">
+
+
+                <button type="submit">Submit</button>
+            </form>     
+        </div>
+    </body>
+</html>

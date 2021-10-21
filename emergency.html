@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="" width="" initial="" scale="1.0">
+	<title>Emergency</title>
+	<link rel="stylesheet" type="text/css" href="emergency.css">
+</head>
+<body class="header">
+	<h1><strong>Welcome to the Emergency Portal</strong></h3>
+	<p>Fill in the spaces below to get emergency treament for your ward</p>
+
+	<form action=”/action_page.php” method=”get”>
+	 <fieldset>
+	  <h3><legend>Patient Information:</legend></h3><br>
+	  <label for=”fname”> First name:</label> 
+	  <input type=”text” id=”fname” name=”fname”>
+	  <label for=”lname”> Last name:</label>
+	  <input type=”text” id=”lname” name=”lname”>
+
+	  Gender:Male<input type="radio"name="gender"id="Male">Female<input type="radio"name="gender"id="Female"><br><br>
+	  
+	  <label for=”dob”> Date Of Birth:</label>
+	  <input type=”date”/>
+	  
+	  <label for=”age”> Age:</label>
+	  <input type=”number”/>
+	  
+	  <label for=”weight”> Weight:</label>
+	  <input type=”number”/><br>
+	 
+	  <h3><legend>Questions:</legend></h3><br>
+	  <label for=”question”> Patients medication names,doses and schedules</label>
+	  <input type=”text”/><br/><br/>
+	  <label for=”question”> Patients medical equipments</label>
+	  <input type=”text”/><br/><br/>
+	  <label for=”question”> Patients chronic medical conditions</label>
+	  <input type=”text”/><br/><br/>
+	  <label for=”question”>Medical consent statement</label>
+	  <input type=”text”/><br/><br/>
+	  <label for=”question”>Allergies and Immunization record</label>
+	  <input type=”text”/><br/><br/>
+	  <label for=”question”>Emergency contacts(such as family members or friends)</label>
+	  <input type=”text”/><br/><br/>
+	  <button type="submit">Submit</button>
+</body>
+</html>  

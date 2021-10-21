@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="" width="" initial="" scale="1.0">
+	<title>See Doctor</title>
+	<link rel="stylesheet" type="text/css" href="seeDoctor.css">
+</head>
+<body class="header">
+	<h1><strong>Welcome to the Doctor's Office</strong></h3>
+	
+  <p>Fill in the spaces below to get solution to your ward's health</p>
+
+  <form action=”/action_page.php” method=”get”>
+   <fieldset>
+    <h3><legend>Patient Information:</legend></h3><br><br>
+    <label for=”fname”> First name:</label> 
+    <input type=”text” id=”fname” name=”fname”>
+    <label for=”lname”> Last name:</label>
+    <input type=”text” id=”lname” name=”lname”>
+  
+    Gender:Male<input type="radio"name="gender"id="Male">Female<input type="radio"name="gender"id="Female"><br><br>
+    <label for=”dob”> Date Of Birth:</label>
+    <input type=”date”/>
+    <label for=”age”> Age:</label>
+    <input type=”number”/>
+    <label for=”weight”> Weight:</label>
+    <input type=”number”/>
+
+    <h3><legend>Questions:</legend></h3><br>
+    <label for=”question”> What happens to be wrong with your ward?</label>
+    <input type=”text”/><br/><br/>
+    <label for=”question”> When did you begin to see symptoms?</label>
+    <input type=”text”/><br/><br/>
+    <label for=”question”> How was your ward reacting?</label>
+    <input type=”text”/><br/><br/>
+    <label for=”question”>Have you given your ward any medication so far?</label>
+    <input type=”text”/><br/><br/>
+    <label for=”question”> When was the last time your ward was dewormed?</label>
+    <input type=”text”/><br/><br/>
+    <button type="submit">Submit</button>
+   </fieldset>
+  </form>
+</body>
+
+</html> 
